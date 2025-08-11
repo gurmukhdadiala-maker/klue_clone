@@ -1,3 +1,4 @@
+import Link from "next/link"
 import { Search, Menu, ChevronDown, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -6,61 +7,22 @@ import { Card, CardContent } from "@/components/ui/card"
 export default function KlueDashboard() {
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Browser Tabs Simulation */}
-      <div className="bg-gray-800 text-white text-xs py-1 px-4 flex items-center gap-2">
-        <div className="flex items-center gap-1">
-          <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-          <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-          <div className="w-3 h-3 bg-green-500 rounded-full"></div>
-        </div>
-        <div className="flex items-center gap-2 ml-4">
-          <span className="bg-orange-600 px-2 py-1 rounded text-xs">Whatfix</span>
-          <span className="bg-gray-600 px-2 py-1 rounded text-xs">Jump...</span>
-          <span className="bg-blue-600 px-2 py-1 rounded text-xs">K Klue</span>
-          <span className="bg-gray-600 px-2 py-1 rounded text-xs">What...</span>
-          <span className="bg-orange-600 px-2 py-1 rounded text-xs">Cont...</span>
-          <span className="bg-red-600 px-2 py-1 rounded text-xs">Inbo...</span>
-          <span className="bg-orange-600 px-2 py-1 rounded text-xs">user...</span>
-          <span className="bg-green-600 px-2 py-1 rounded text-xs">Wha...</span>
-          <span className="bg-gray-600 px-2 py-1 rounded text-xs">Micr...</span>
-          <span className="bg-blue-600 px-2 py-1 rounded text-xs">Micr...</span>
-          <span className="bg-blue-600 px-2 py-1 rounded text-xs">Mail</span>
-          <span className="bg-orange-600 px-2 py-1 rounded text-xs">Goo...</span>
-          <span className="bg-gray-600 px-2 py-1 rounded text-xs">New</span>
-        </div>
-      </div>
-
-      {/* Address Bar */}
-      <div className="bg-gray-700 text-white text-sm py-2 px-4 flex items-center gap-4">
-        <div className="flex items-center gap-2">
-          <button className="text-gray-300">←</button>
-          <button className="text-gray-300">→</button>
-          <button className="text-gray-300">↻</button>
-        </div>
-        <div className="flex-1 bg-gray-600 rounded px-3 py-1 text-sm">
-          v2.app.klue.com/dashboard?group=-1&sort=alpha-rev
-        </div>
-        <div className="flex items-center gap-2">
-          <button className="text-gray-300">⭐</button>
-          <button className="text-gray-300">🔥</button>
-          <div className="w-6 h-6 bg-blue-500 rounded-full"></div>
-        </div>
-      </div>
-
       {/* Navigation Header */}
       <header className="bg-white border-b border-gray-200 px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-4">
               <Menu className="w-5 h-5 text-gray-600" />
-              <span className="font-bold text-lg">HOME</span>
+              <span className="font-bold text-lg border-b-2 border-black pb-1">HOME</span>
             </div>
           </div>
 
           <div className="flex items-center gap-4">
             <div className="relative">
-              <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 w-4 h-4 text-gray-400" />
-              <Input placeholder="Search Klue" className="pl-10 w-80 bg-gray-50 border-gray-200" />
+              <Input placeholder="Search Klue" className="pl-4 pr-12 w-80 bg-gray-50 border-gray-300 rounded-full" />
+              <div className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black rounded-full p-2">
+                <Search className="w-4 h-4 text-white" />
+              </div>
             </div>
           </div>
 
@@ -89,15 +51,15 @@ export default function KlueDashboard() {
           <div className="flex-1 flex items-center gap-8 text-sm">
             <div className="flex items-center gap-2">
               <span className="text-red-500">📍</span>
-              <span className="text-purple-600">What questions can I ask to deposition Pendo?</span>
+              <span className="text-purple-600">Our top 3 selling points against Pendo</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-blue-500">🎯</span>
-              <span className="text-purple-600">What are Clicklearn's weaknesses?</span>
+              <span className="text-purple-600">How do I win against Clicklearn?</span>
             </div>
             <div className="flex items-center gap-2">
               <span className="text-green-500">📊</span>
-              <span className="text-purple-600">Our top 3 selling points against SAP</span>
+              <span className="text-purple-600">Why would a prospect choose Appcues?</span>
             </div>
           </div>
           <div className="flex items-center gap-2">
@@ -138,7 +100,7 @@ export default function KlueDashboard() {
                 <ChevronDown className="w-4 h-4 text-gray-500" />
               </div>
               <div className="grid grid-cols-4 gap-4">
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-purple-600 rounded-lg flex items-center justify-center">
                       <div className="text-white font-bold text-xl">U</div>
@@ -147,16 +109,18 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
-                  <CardContent className="p-0">
-                    <div className="w-16 h-16 mx-auto mb-3 bg-blue-500 rounded-lg flex items-center justify-center">
-                      <span className="text-white text-xs font-bold">walkme</span>
-                    </div>
-                    <h4 className="font-medium text-gray-800">SAP - WalkMe</h4>
-                  </CardContent>
-                </Card>
+                <Link href="/sap-walkme">
+                  <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
+                    <CardContent className="p-0">
+                      <div className="w-16 h-16 mx-auto mb-3 bg-blue-500 rounded-lg flex items-center justify-center">
+                        <span className="text-white text-xs font-bold">walkme</span>
+                      </div>
+                      <h4 className="font-medium text-gray-800">SAP - WalkMe</h4>
+                    </CardContent>
+                  </Card>
+                </Link>
 
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-red-500 rounded-lg flex items-center justify-center">
                       <div className="text-white font-bold text-2xl">▶</div>
@@ -165,7 +129,7 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-600 rounded-lg flex items-center justify-center">
                       <div className="text-white font-bold text-2xl">A</div>
@@ -183,7 +147,7 @@ export default function KlueDashboard() {
                 <ChevronDown className="w-4 h-4 text-gray-500" />
               </div>
               <div className="grid grid-cols-4 gap-4">
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-700 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-lg">W</span>
@@ -192,7 +156,7 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-pink-400 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-lg">u</span>
@@ -201,7 +165,7 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-lg flex items-center justify-center">
                       <div className="w-8 h-8 bg-purple-600 rounded-full flex items-center justify-center">
@@ -212,7 +176,7 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-600 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-xs">SAP</span>
@@ -225,7 +189,7 @@ export default function KlueDashboard() {
 
             {/* Additional Row */}
             <div className="grid grid-cols-4 gap-4 mb-6">
-              <Card className="p-6 text-center hover:shadow-md transition-shadow">
+              <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-blue-500 rounded-lg flex items-center justify-center">
                     <span className="text-white font-bold text-xs">salesforce</span>
@@ -234,7 +198,7 @@ export default function KlueDashboard() {
                 </CardContent>
               </Card>
 
-              <Card className="p-6 text-center hover:shadow-md transition-shadow">
+              <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-red-700 rounded-lg flex items-center justify-center">
                     <span className="text-white font-bold text-lg">ORACLE</span>
@@ -243,7 +207,7 @@ export default function KlueDashboard() {
                 </CardContent>
               </Card>
 
-              <Card className="p-6 text-center hover:shadow-md transition-shadow">
+              <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-blue-900 rounded-lg flex items-center justify-center">
                     <span className="text-white font-bold text-xs">nexthink</span>
@@ -252,7 +216,7 @@ export default function KlueDashboard() {
                 </CardContent>
               </Card>
 
-              <Card className="p-6 text-center hover:shadow-md transition-shadow">
+              <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-orange-500 rounded-lg flex items-center justify-center">
                     <span className="text-white font-bold text-2xl">∞</span>
@@ -264,7 +228,7 @@ export default function KlueDashboard() {
 
             {/* Another Row */}
             <div className="grid grid-cols-4 gap-4 mb-6">
-              <Card className="p-6 text-center hover:shadow-md transition-shadow">
+              <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-lg flex items-center justify-center">
                     <span className="text-gray-800 font-bold text-lg">🍋</span>
@@ -273,7 +237,7 @@ export default function KlueDashboard() {
                 </CardContent>
               </Card>
 
-              <Card className="p-6 text-center hover:shadow-md transition-shadow">
+              <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-lg flex items-center justify-center">
                     <span className="text-blue-600 font-bold text-xs">coupa</span>
@@ -282,7 +246,7 @@ export default function KlueDashboard() {
                 </CardContent>
               </Card>
 
-              <Card className="p-6 text-center hover:shadow-md transition-shadow">
+              <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-orange-500 rounded-full flex items-center justify-center">
                     <span className="text-white font-bold text-lg">A</span>
@@ -291,7 +255,7 @@ export default function KlueDashboard() {
                 </CardContent>
               </Card>
 
-              <Card className="p-6 text-center hover:shadow-md transition-shadow">
+              <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-white border-2 border-gray-200 rounded-lg"></div>
                   <h4 className="font-medium text-gray-800"></h4>
@@ -306,7 +270,7 @@ export default function KlueDashboard() {
                 <ChevronDown className="w-4 h-4 text-gray-500" />
               </div>
               <div className="grid grid-cols-4 gap-4">
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-purple-600 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-2xl">X</span>
@@ -324,7 +288,7 @@ export default function KlueDashboard() {
                 <ChevronDown className="w-4 h-4 text-gray-500" />
               </div>
               <div className="grid grid-cols-4 gap-4">
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-orange-600 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-xs">assima</span>
@@ -333,7 +297,7 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-400 rounded-full flex items-center justify-center">
                       <span className="text-white font-bold text-lg">360</span>
@@ -351,7 +315,7 @@ export default function KlueDashboard() {
                 <ChevronDown className="w-4 h-4 text-gray-500" />
               </div>
               <div className="grid grid-cols-4 gap-4">
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-900 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-xs">nexthink</span>
@@ -369,7 +333,7 @@ export default function KlueDashboard() {
                 <ChevronDown className="w-4 h-4 text-gray-500" />
               </div>
               <div className="grid grid-cols-4 gap-4">
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-green-500 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-lg">T</span>
@@ -378,7 +342,7 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-lg flex items-center justify-center">
                       <span className="text-blue-600 font-bold text-xs">stonly</span>
@@ -387,7 +351,7 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-900 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-xs">nexthink</span>
@@ -396,12 +360,32 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 text-center hover:shadow-md transition-shadow">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-teal-500 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-xs">myMeta</span>
                     </div>
                     <h4 className="font-medium text-gray-800">MyMeta</h4>
+                  </CardContent>
+                </Card>
+              </div>
+
+              <div className="grid grid-cols-4 gap-4 mt-4">
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
+                  <CardContent className="p-0">
+                    <div className="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-lg flex items-center justify-center">
+                      <span className="text-blue-600 font-bold text-xs">coupa</span>
+                    </div>
+                    <h4 className="font-medium text-gray-800">Coupa Guided Buying</h4>
+                  </CardContent>
+                </Card>
+
+                <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
+                  <CardContent className="p-0">
+                    <div className="w-16 h-16 mx-auto mb-3 bg-blue-500 rounded-full flex items-center justify-center">
+                      <span className="text-white font-bold text-lg">○</span>
+                    </div>
+                    <h4 className="font-medium text-gray-800">Clicklearn</h4>
                   </CardContent>
                 </Card>
               </div>
@@ -500,6 +484,12 @@ export default function KlueDashboard() {
               <h3 className="font-semibold text-sm mb-2">
                 The University of Kentucky Prepares Nursing Students for the Unpredictable With Articulate 360
               </h3>
+              <div className="bg-yellow-200 h-1 w-full mb-3"></div>
+              <div className="text-xs text-gray-600 mb-2">
+                <span className="font-medium">Akanksha S.</span>
+                <span className="ml-2 text-gray-500">MAR 19</span>
+              </div>
+              <p className="text-sm font-medium mb-3">The University of Kentucky is an Articulate 360 customer</p>
               <p className="text-xs text-gray-600 mb-3">
                 The Answer With Articulate 360, UK College of Nursing improves the efficiency of creating high-quality
                 courses Today, the College of Nursing uses both Storyline and Rise t...
@@ -537,11 +527,22 @@ export default function KlueDashboard() {
                 <span className="font-medium">Akanksha S.</span>
                 <span className="ml-2 text-gray-500">MAR 19</span>
               </div>
-              <p className="text-sm font-medium mb-3">The University of Kentucky is an Articulate 360 customer</p>
               <p className="text-xs text-gray-600 mb-3">
                 Intercom, Pendo, Skilljar, WalkMe, and Whatfix were given the highest "Market Leader" award in Winter
                 2025 User Onboarding Software Customer Success Report.
               </p>
+              <p className="text-xs text-gray-600 mb-3">
+                {"> > > >"} FeaturedCustomers releases the Winter 2025 User Onboarding Software Customer Success Report.
+                SUNRISE, FL, UNITED STATES, March 18, 2025 / / Today...
+              </p>
+              <Button variant="outline" size="sm" className="text-blue-600 border-blue-600 text-xs bg-transparent">
+                📖 Read More
+              </Button>
+              <div className="mt-2">
+                <a href="#" className="text-xs text-blue-600 flex items-center gap-1">
+                  www.thebusinessgazetteonline.com <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
             </div>
           </div>
         </aside>
