@@ -109,7 +109,7 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Link href="/sap-NovaSphere Technologies">
+                <Link href="/sap-walkme">
                   <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                     <CardContent className="p-0">
                       <div className="w-16 h-16 mx-auto mb-3 bg-blue-500 rounded-lg flex items-center justify-center">
