@@ -255,12 +255,7 @@ export default function KlueDashboard() {
                 </CardContent>
               </Card>
 
-              <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
-                <CardContent className="p-0">
-                  <div className="w-16 h-16 mx-auto mb-3 bg-white border-2 border-gray-200 rounded-lg"></div>
-                  <h4 className="font-medium text-gray-800"></h4>
-                </CardContent>
-              </Card>
+              
             </div>
 
             {/* Product Analytics */}
