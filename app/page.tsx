@@ -103,9 +103,9 @@ export default function KlueDashboard() {
                 <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-purple-600 rounded-lg flex items-center justify-center">
-                      <div className="text-white font-bold text-xl">U</div>
+                      <div className="text-white font-bold text-xl">B</div>
                     </div>
-                    <h4 className="font-medium text-gray-800">Userlane</h4>
+                    <h4 className="font-medium text-gray-800">BlueArc Solutions</h4>
                   </CardContent>
                 </Card>
 
@@ -113,9 +113,9 @@ export default function KlueDashboard() {
                   <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                     <CardContent className="p-0">
                       <div className="w-16 h-16 mx-auto mb-3 bg-blue-500 rounded-lg flex items-center justify-center">
-                        <span className="text-white text-xs font-bold">walkme</span>
+                        <span className="text-white text-xs font-bold">NovaSphere</span>
                       </div>
-                      <h4 className="font-medium text-gray-800">SAP - WalkMe</h4>
+                      <h4 className="font-medium text-gray-800">NovaSphere Technologies</h4>
                     </CardContent>
                   </Card>
                 </Link>
@@ -125,7 +125,7 @@ export default function KlueDashboard() {
                     <div className="w-16 h-16 mx-auto mb-3 bg-red-500 rounded-lg flex items-center justify-center">
                       <div className="text-white font-bold text-2xl">▶</div>
                     </div>
-                    <h4 className="font-medium text-gray-800">Pendo</h4>
+                    <h4 className="font-medium text-gray-800">Vertexon Global</h4>
                   </CardContent>
                 </Card>
 
@@ -134,7 +134,7 @@ export default function KlueDashboard() {
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-600 rounded-lg flex items-center justify-center">
                       <div className="text-white font-bold text-2xl">A</div>
                     </div>
-                    <h4 className="font-medium text-gray-800">Appcues</h4>
+                    <h4 className="font-medium text-gray-800">Silvergate Enterprises</h4>
                   </CardContent>
                 </Card>
               </div>
@@ -152,7 +152,7 @@ export default function KlueDashboard() {
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-700 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-lg">W</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Workday</h4>
+                    <h4 className="font-medium text-gray-800">Auralink Systems</h4>
                   </CardContent>
                 </Card>
 
@@ -161,7 +161,7 @@ export default function KlueDashboard() {
                     <div className="w-16 h-16 mx-auto mb-3 bg-pink-400 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-lg">u</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Userpilot</h4>
+                    <h4 className="font-medium text-gray-800">ProximaEdge Consulting</h4>
                   </CardContent>
                 </Card>
 
@@ -172,16 +172,16 @@ export default function KlueDashboard() {
                         <span className="text-white text-xs">⚡</span>
                       </div>
                     </div>
-                    <h4 className="font-medium text-gray-800">Spekit</h4>
+                    <h4 className="font-medium text-gray-800">NimbusCore Analytics</h4>
                   </CardContent>
                 </Card>
 
                 <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-600 rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold text-xs">SAP</span>
+                      <span className="text-white font-bold text-xs">IL</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">SAP EnableNow</h4>
+                    <h4 className="font-medium text-gray-800">Ironleaf Industries</h4>
                   </CardContent>
                 </Card>
               </div>
@@ -192,27 +192,27 @@ export default function KlueDashboard() {
               <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-blue-500 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold text-xs">salesforce</span>
+                    <span className="text-white font-bold text-xs">StellarPath</span>
                   </div>
-                  <h4 className="font-medium text-gray-800">Salesforce In-App Gui...</h4>
+                  <h4 className="font-medium text-gray-800">StellarPath Logistics</h4>
                 </CardContent>
               </Card>
 
               <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-red-700 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold text-lg">ORACLE</span>
+                    <span className="text-white font-bold text-lg">Quantum Harbor Capital</span>
                   </div>
-                  <h4 className="font-medium text-gray-800">OGL</h4>
+                  <h4 className="font-medium text-gray-800">Quantum Harbor Capital</h4>
                 </CardContent>
               </Card>
 
               <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                 <CardContent className="p-0">
                   <div className="w-16 h-16 mx-auto mb-3 bg-blue-900 rounded-lg flex items-center justify-center">
-                    <span className="text-white font-bold text-xs">nexthink</span>
+                    <span className="text-white font-bold text-xs">RCG</span>
                   </div>
-                  <h4 className="font-medium text-gray-800">Nexthink Adopt</h4>
+                  <h4 className="font-medium text-gray-800">Redmond & Chase Group</h4>
                 </CardContent>
               </Card>
 
@@ -221,7 +221,7 @@ export default function KlueDashboard() {
                   <div className="w-16 h-16 mx-auto mb-3 bg-orange-500 rounded-lg flex items-center justify-center">
                     <span className="text-white font-bold text-2xl">∞</span>
                   </div>
-                  <h4 className="font-medium text-gray-800">Netcore Cloud</h4>
+                  <h4 className="font-medium text-gray-800">Skybridge Ventures</h4>
                 </CardContent>
               </Card>
             </div>
@@ -233,7 +233,7 @@ export default function KlueDashboard() {
                   <div className="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-lg flex items-center justify-center">
                     <span className="text-gray-800 font-bold text-lg">🍋</span>
                   </div>
-                  <h4 className="font-medium text-gray-800">Lemon Learning</h4>
+                  <h4 className="font-medium text-gray-800">Clearwave Communications</h4>
                 </CardContent>
               </Card>
 
@@ -242,7 +242,7 @@ export default function KlueDashboard() {
                   <div className="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-lg flex items-center justify-center">
                     <span className="text-blue-600 font-bold text-xs">coupa</span>
                   </div>
-                  <h4 className="font-medium text-gray-800">Coupa Guided Buying</h4>
+                  <h4 className="font-medium text-gray-800">SummitForge Partners</h4>
                 </CardContent>
               </Card>
 
@@ -251,7 +251,7 @@ export default function KlueDashboard() {
                   <div className="w-16 h-16 mx-auto mb-3 bg-orange-500 rounded-full flex items-center justify-center">
                     <span className="text-white font-bold text-lg">A</span>
                   </div>
-                  <h4 className="font-medium text-gray-800">Apty</h4>
+                  <h4 className="font-medium text-gray-800">AtlasPrime Innovations</h4>
                 </CardContent>
               </Card>
 
@@ -275,7 +275,7 @@ export default function KlueDashboard() {
                     <div className="w-16 h-16 mx-auto mb-3 bg-purple-600 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-2xl">X</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Mixpanel</h4>
+                    <h4 className="font-medium text-gray-800">Cresthaven Dynamics</h4>
                   </CardContent>
                 </Card>
               </div>
@@ -291,9 +291,9 @@ export default function KlueDashboard() {
                 <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-orange-600 rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold text-xs">assima</span>
+                      <span className="text-white font-bold text-xs">PHG</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Assima</h4>
+                    <h4 className="font-medium text-gray-800">Pinnacle Horizon Group</h4>
                   </CardContent>
                 </Card>
 
@@ -302,7 +302,7 @@ export default function KlueDashboard() {
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-400 rounded-full flex items-center justify-center">
                       <span className="text-white font-bold text-lg">360</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Articulate</h4>
+                    <h4 className="font-medium text-gray-800">Ironwood Strategies</h4>
                   </CardContent>
                 </Card>
               </div>
@@ -318,9 +318,9 @@ export default function KlueDashboard() {
                 <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-900 rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold text-xs">nexthink</span>
+                      <span className="text-white font-bold text-xs">LT</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Nexthink Adopt</h4>
+                    <h4 className="font-medium text-gray-800">LumenEdge Technologies</h4>
                   </CardContent>
                 </Card>
               </div>
@@ -338,16 +338,16 @@ export default function KlueDashboard() {
                     <div className="w-16 h-16 mx-auto mb-3 bg-green-500 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-lg">T</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Toonimo</h4>
+                    <h4 className="font-medium text-gray-800">Brightwell Capital Partners</h4>
                   </CardContent>
                 </Card>
 
                 <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-lg flex items-center justify-center">
-                      <span className="text-blue-600 font-bold text-xs">stonly</span>
+                      <span className="text-blue-600 font-bold text-xs">NV</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Stonly</h4>
+                    <h4 className="font-medium text-gray-800">Northgate Ventures</h4>
                   </CardContent>
                 </Card>
 
@@ -356,16 +356,16 @@ export default function KlueDashboard() {
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-900 rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-xs">nexthink</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Nexthink Adopt</h4>
+                    <h4 className="font-medium text-gray-800">Evercrest Solutions</h4>
                   </CardContent>
                 </Card>
 
                 <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-teal-500 rounded-lg flex items-center justify-center">
-                      <span className="text-white font-bold text-xs">myMeta</span>
+                      <span className="text-white font-bold text-xs">HA</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">MyMeta</h4>
+                    <h4 className="font-medium text-gray-800">Harborstone Analytics</h4>
                   </CardContent>
                 </Card>
               </div>
@@ -374,18 +374,18 @@ export default function KlueDashboard() {
                 <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-gray-100 rounded-lg flex items-center justify-center">
-                      <span className="text-blue-600 font-bold text-xs">coupa</span>
+                      <span className="text-blue-600 font-bold text-xs">TL</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Coupa Guided Buying</h4>
+                    <h4 className="font-medium text-gray-800">Truepath Logistics</h4>
                   </CardContent>
                 </Card>
 
                 <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-blue-500 rounded-full flex items-center justify-center">
-                      <span className="text-white font-bold text-lg">○</span>
+                      <span className="text-white font-bold text-lg">os</span>
                     </div>
-                    <h4 className="font-medium text-gray-800">Clicklearn</h4>
+                    <h4 className="font-medium text-gray-800">Optivista Systems</h4>
                   </CardContent>
                 </Card>
               </div>
