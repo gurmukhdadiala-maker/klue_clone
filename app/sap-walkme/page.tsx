@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
 
-export default function SAPWalkMePage() {
+export default function TechnoNovaSpherePage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Navigation Header */}
@@ -44,7 +44,7 @@ export default function SAPWalkMePage() {
         <aside className="w-64 bg-white border-r border-gray-200 p-6">
           <div className="mb-6">
             <div className="flex items-center gap-2 mb-4">
-              <h1 className="font-semibold text-lg">SAP - WalkMe</h1>
+              <h1 className="font-semibold text-lg">Techno - NovaSphere</h1>
               <div className="w-6 h-6 bg-gray-300 rounded flex items-center justify-center">
                 <span className="text-gray-600 text-xs">K</span>
               </div>
@@ -93,7 +93,7 @@ export default function SAPWalkMePage() {
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center gap-3">
                 <div className="w-8 h-8 bg-blue-500 rounded flex items-center justify-center">
-                  <span className="text-white text-xs font-bold">walkme</span>
+                  <span className="text-white text-xs font-bold">NovaSphere</span>
                 </div>
                 <div>
                   <div className="text-sm text-gray-500">Battlecard</div>
@@ -122,7 +122,7 @@ export default function SAPWalkMePage() {
                 <CardContent className="p-0">
                   <div className="flex items-center gap-2 mb-4">
                     <span className="text-yellow-500">⚠️</span>
-                    <h3 className="font-semibold text-gray-800">What's New With Walkme</h3>
+                    <h3 className="font-semibold text-gray-800">What's New With NovaSphere</h3>
                   </div>
 
                   <div className="space-y-4">
@@ -153,7 +153,7 @@ export default function SAPWalkMePage() {
                     <h4 className="font-medium text-gray-800 mb-3">More Resources</h4>
                     <div className="flex items-center gap-2 text-sm text-red-600">
                       <span>📄</span>
-                      <span>SAP-WalkMe Acquisition</span>
+                      <span>Techno-NovaSphere Acquisition</span>
                     </div>
                   </div>
                 </CardContent>
@@ -167,7 +167,7 @@ export default function SAPWalkMePage() {
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center gap-2">
                       <span className="text-yellow-500">⚠️</span>
-                      <h3 className="font-semibold text-gray-800">What's New With Walkme</h3>
+                      <h3 className="font-semibold text-gray-800">What's New With NovaSphere</h3>
                     </div>
                     <div className="flex items-center gap-2">
                       <button className="text-gray-400 hover:text-gray-600">
@@ -195,21 +195,21 @@ export default function SAPWalkMePage() {
                           <tr className="border-b border-gray-100">
                             <td className="py-3">
                               <a href="#" className="text-blue-600 hover:underline">
-                                SAP Joule + WalkMe - SAP Sapphire announcements
+                                Techno SN + NovaSphere - Techno Technophire announcements
                               </a>
                             </td>
                             <td className="py-3 text-gray-600">May 20, 2025</td>
                             <td className="py-3 text-gray-600">
-                              SAP has announced major updates to Joule that may introduce competitive threats,
-                              particularly in SAP-heavy accounts. These updates, powered by WalkMe, aim to strengthen
-                              SAP's AI and automation capabilities. Here's what you need to know and how to position
+                              Techno has announced major updates to SN that may introduce competitive threats,
+                              particularly in Techno-heavy accounts. These updates, powered by NovaSphere, aim to strengthen
+                              Techno's AI and automation capabilities. Here's what you need to know and how to position
                               Whatfix
                             </td>
                           </tr>
                           <tr className="border-b border-gray-100">
                             <td className="py-3">
                               <a href="#" className="text-blue-600 hover:underline">
-                                WalkMe is offered for FREE with SAP SuccessFactors
+                                NovaSphere is offered for FREE with Techno SuccessFactors
                               </a>
                             </td>
                             <td className="py-3 text-gray-600">April 10, 2025</td>
@@ -220,7 +220,7 @@ export default function SAPWalkMePage() {
                           <tr className="border-b border-gray-100">
                             <td className="py-3">
                               <a href="#" className="text-blue-600 hover:underline">
-                                WalkMe Winter Release
+                                NovaSphere Winter Release
                               </a>
                             </td>
                             <td className="py-3 text-gray-600">Feb 2025</td>

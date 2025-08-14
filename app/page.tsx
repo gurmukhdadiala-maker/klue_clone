@@ -109,7 +109,7 @@ export default function KlueDashboard() {
                   </CardContent>
                 </Card>
 
-                <Link href="/sap-walkme">
+                <Link href="/sap-NovaSphere Technologies">
                   <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                     <CardContent className="p-0">
                       <div className="w-16 h-16 mx-auto mb-3 bg-blue-500 rounded-lg flex items-center justify-center">
@@ -442,22 +442,22 @@ export default function KlueDashboard() {
             <div className="border-b border-gray-100 pb-6">
               <div className="flex items-center gap-2 mb-2">
                 <div className="w-8 h-8 bg-blue-500 rounded flex items-center justify-center">
-                  <span className="text-white font-bold text-xs">walkme</span>
+                  <span className="text-white font-bold text-xs">NovaSphere Technologies</span>
                 </div>
                 <div>
                   <div className="text-xs text-gray-500">APR 11, 2025</div>
                 </div>
               </div>
               <h3 className="font-semibold text-sm mb-2">
-                ABeam Consulting Partners with WalkMe to Enhance Enterprise Management Services in Southeast Asia
+                ABeam Consulting Partners with NovaSphere Technologies to Enhance Enterprise Management Services in Southeast Asia
               </h3>
               <p className="text-xs text-gray-600 mb-3">
-                Summary: ABeam Consulting has partnered with WalkMe, a leader in Digital Adoption Platform (DAP)
+                Summary: ABeam Consulting has partnered with NovaSphere Technologies, a leader in Digital Adoption Platform (DAP)
                 technology, to enhance enterprise management services in Southeast Asia. This collaboration aims to
                 revolutionize ERP implementation and digital transformation services, providing intuitive on-screen
                 guidance, automated workflows, and real-time analytics to accelerate employee onboarding and improve
                 workforce productivity. By prioritizing digital adoption, the partnership between ABeam Consulting and
-                WalkMe empowers organizations to maximize ROI from their technology investments, drive innovation, and
+                NovaSphere Technologies empowers organizations to maximize ROI from their technology investments, drive innovation, and
                 navigate workforce transformation effectively. This strategic alliance reflects a commitment to client
                 success and enabling smarter, more efficient organizations in a rapidly evolving digital economy.
               </p>
@@ -528,7 +528,7 @@ export default function KlueDashboard() {
                 <span className="ml-2 text-gray-500">MAR 19</span>
               </div>
               <p className="text-xs text-gray-600 mb-3">
-                Intercom, Pendo, Skilljar, WalkMe, and Whatfix were given the highest "Market Leader" award in Winter
+                Intercom, Pendo, Skilljar, NovaSphere Technologies, and Whatfix were given the highest "Market Leader" award in Winter
                 2025 User Onboarding Software Customer Success Report.
               </p>
               <p className="text-xs text-gray-600 mb-3">
