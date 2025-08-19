@@ -113,9 +113,9 @@ export default function KlueDashboard() {
                   <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                     <CardContent className="p-0">
                       <div className="w-16 h-16 mx-auto mb-3 bg-blue-500 rounded-lg flex items-center justify-center">
-                        <span className="text-white text-xs font-bold">NovaSphere</span>
+                        <span className="text-white text-xs font-bold">Acme</span>
                       </div>
-                      <h4 className="font-medium text-gray-800">NovaSphere Technologies</h4>
+                      <h4 className="font-medium text-gray-800">Acme</h4>
                     </CardContent>
                   </Card>
                 </Link>
@@ -123,9 +123,9 @@ export default function KlueDashboard() {
                 <Card className="p-6 text-center hover:shadow-md transition-shadow cursor-pointer">
                   <CardContent className="p-0">
                     <div className="w-16 h-16 mx-auto mb-3 bg-red-500 rounded-lg flex items-center justify-center">
-                      <div className="text-white font-bold text-2xl">▶</div>
+                      <div className="text-white font-bold text-2xl">U</div>
                     </div>
-                    <h4 className="font-medium text-gray-800">Vertexon Global</h4>
+                    <h4 className="font-medium text-gray-800">Umbrella</h4>
                   </CardContent>
                 </Card>
 
