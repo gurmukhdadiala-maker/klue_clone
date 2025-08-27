@@ -131,8 +131,7 @@ export default function TechnoNovaSpherePage() {
                       <div>
                         <h4 className="font-medium text-gray-800 mb-1">Proactive Tactics:</h4>
                         <p className="text-sm text-gray-600">
-                          Strategies and actions designed to take the initiative and drive the sales conversation in a
-                          favorable direction
+                          Generates a concise competitive edge summary (e.g., “Compared to Acme, Gen Pro offers 40% faster integration and higher compliance coverage”). 
                         </p>
                       </div>
                     </div>
@@ -142,8 +141,7 @@ export default function TechnoNovaSpherePage() {
                       <div>
                         <h4 className="font-medium text-gray-800 mb-1">Reactive Tactics:</h4>
                         <p className="text-sm text-gray-600">
-                          Strategies and approaches designed to respond effectively to specific situations, objections,
-                          or challenges that may arise during the sales process
+                          While the initial license may look similar, Gen Pro’s lower support overhead ensures your 5-year TCO is 20–30% lower than Acme
                         </p>
                       </div>
                     </div>
